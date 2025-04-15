@@ -185,9 +185,10 @@ If you run into any issues, feel free to:
 
 ---
 
-## 🧠 Learn More
+## 🧠 Learn More...
 
 - [React](https://reactjs.org/)
 - [React Konva Docs](https://konvajs.org/docs/react/)
 - [TailwindCSS](https://tailwindcss.com/)
 - [jsPDF](https://github.com/parallax/jsPDF)
+ 
