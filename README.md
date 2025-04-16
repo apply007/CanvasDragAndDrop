@@ -1,4 +1,4 @@
-# 🖼️ Drag-and-Drop Canvas Builder (Frontend Only)
+# 🖼️ Drag-and-Drop Canvas App
 
 This project is a **frontend-only canvas application** built using **React**, **React-Konva**, and **TailwindCSS**, allowing users to:
 
