@@ -1,4 +1,3 @@
-// File: client/src/components/CanvasArea.jsx
 import React, { useState } from 'react';
 import { Stage, Layer } from 'react-konva';
 import Icon from './Icon';
@@ -28,10 +27,10 @@ function CanvasArea() {
     setIcons(icons.map(icon => icon.id === updatedIcon.id ? updatedIcon : icon));
   };
 
-  const createConnection = (fromId, toId, label) => {
-    const id = Date.now().toString();
-    setConnections([...connections, { id, fromId, toId, label }]);
-  };
+  // const createConnection = (fromId, toId, label) => {
+  //   const id = Date.now().toString();
+  //   setConnections([...connections, { id, fromId, toId, label }]);
+  // };
 
   return (
     <div className="flex flex-col gap-4">
