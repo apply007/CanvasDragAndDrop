@@ -23,16 +23,16 @@ console.log(shape)
         width={icon.width}
         height={icon.height}
         fill={icon.type === 'Browser' ? 'lightblue' : 'lightgreen'}
-        cornerRadius={10}
+        cornerRadius={30}
       />}
    {shape==='ellipse' &&     <Ellipse
-          x={200}
-          y={200}
+          x={icon.width}
+          y={icon.width}
           radiusX={60}
           radiusY={40}
           fill="lightblue"
           stroke="blue"
-          strokeWidth={2}
+     
           draggable
         />
 }

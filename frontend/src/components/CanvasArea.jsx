@@ -9,7 +9,7 @@ function CanvasArea() {
   const [icons, setIcons] = useState([]);
   const [connections, setConnections] = useState([]);
 
-  const [shape, setShape] = useState("circle"); // default shape
+  const [shape, setShape] = useState("rect"); // default shape
 
   const addIcon = (type) => {
     const id = Date.now().toString();
