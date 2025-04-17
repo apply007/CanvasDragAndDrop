@@ -9,6 +9,8 @@ function CanvasArea() {
   const [icons, setIcons] = useState([]);
   const [connections, setConnections] = useState([]);
 
+  const [selectedId, setSelectedId] = useState(null);
+  
   const [shape, setShape] = useState("rect"); // default shape
 
   const addIcon = (type) => {
@@ -63,7 +65,13 @@ function CanvasArea() {
             <ConnectionLine key={conn.id} connection={conn} icons={icons} />
           ))}
           {icons.map((icon) => (
-            <Icon key={icon.id} shape={shape} icon={icon} updateIcon={updateIcon} />
+         <Icon
+         icon={icon}
+         shape={shape}
+         updateIcon={updateIcon}
+         isSelected={icon.id === selectedId}
+         onSelect={() => setSelectedId(icon.id)}
+       />
           ))}
         </Layer>
       </Stage>
