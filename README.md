@@ -46,7 +46,7 @@ This project is a **frontend-only canvas application** built using **React**, **
 
 ```bash
 git clone https://github.com/apply007/CanvasDragAndDrop
-cd canvas-builder/client
+
 ```
 
 ### 2. Install Dependencies
