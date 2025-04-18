@@ -45,7 +45,7 @@ This project is a **frontend-only canvas application** built using **React**, **
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/canvas-builder.git
+git clone https://github.com/apply007/CanvasDragAndDrop
 cd canvas-builder/client
 ```
 
