@@ -75,7 +75,7 @@ function Icon({ icon, updateIcon, shape, isSelected, onSelect }) {
             ref={shapeRef}
             radiusX={icon.radiusX || 60}
             radiusY={icon.radiusY || 40}
-            fill="lightblue"
+            fill={icon.type === 'Browser' ? 'lightblue' : 'lightgreen'}
             stroke="blue"
             onTransformEnd={handleTransformEnd}
           />

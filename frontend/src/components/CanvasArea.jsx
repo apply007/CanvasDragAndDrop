@@ -15,6 +15,7 @@ function CanvasArea() {
 
   const addIcon = (type) => {
     const id = Date.now().toString();
+ 
     const newIcon = {
       id,
       type,
@@ -24,6 +25,7 @@ function CanvasArea() {
       width: 80,
       height: 80,
     };
+
     setIcons([...icons, newIcon]);
   };
 
